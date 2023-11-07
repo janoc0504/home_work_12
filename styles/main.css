@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* common roperties */
+:root {
+  --b-color-gray: #C4C4C4;
+  --b-color-lgrey: #E6E6E6;
+  --b-color-pink: #FC8F8F;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: normal;
+  font-style: normal;
+  color: white;
+  background-color: var(--b-color-gray);
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* shrift properties */
+.fweight700 {
+  font-weight: 700;
+}
+
+.fsize64 {
+  font-size: 64px;
+}
+
+.fsize36 {
+  font-size: 36px;
+}
+
+/* float properties */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.margin-left15 {
+  margin-left: 15px;
+}
+
+/* blocks */
+.wrap {
+  background-color: var(--b-color-lgrey);
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.block1 {
+  padding: 60.5px 81.04px;
+  background-color: var(--b-color-pink);
+}
+
+.block2 {
+  padding: 28.5px 39.68px;
+  background-color: var(--b-color-pink);
+}
